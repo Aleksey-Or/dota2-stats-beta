@@ -6,9 +6,13 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "dota": "^0.0.2",
+    "dota2-css-hero-sprites": "^2.5.0",
+    "dota2-minimap-hero-sprites": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "stratz.js": "^2.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

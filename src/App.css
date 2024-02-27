@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.d2mh {
+  
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Define specific styles for Marci, Primal Beast, and Muerta */
+.hero-136 {
+  background-image: url(./icons/Marci_icon.webp) /* Update with the correct path */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero-137 {
+  background-image: url(./icons/Primal_Beast_icon.webp); /* Update with the correct path */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-138 {
+  background-image: url(./icons/Muerta_icon.webp); /* Update with the correct path */
+}
+
+/* App.css */
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.hero-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hero-list li {
+  padding: 20px 0;
+  border-bottom: 1px solid #333; /* Darker border color */
+}
+
+.hero {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-info {
+  flex-grow: 1;
+}
+
+.hero-info h2 {
+  margin: 0;
+}
+
+.hero-stats {
+  color: #ccc; /* Lighter text color */
+}
+
+/* Green win rate line for positive win rate */
+.win-rate-bar {
+  background-color: #333; /* Darker background color */
+  height: 8px; /* Adjust height as needed */
+  border-radius: 4px; /* Rounded corners */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.win-rate-fill {
+  height: 100%;
+  background-color: #4caf50; /* Green color for positive win rate */
 }
